@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&family=Poppins:wght@200;300&display=swap');
+
+body{
+    color: black;
+    font-family: 'Montserrat', sans-serif;    
+    
+}
+
+.contenido1{
+    display: flex;
+    background-color:#CCE5F0; 
+}
+
+.contenido1 div{
+    text-align: center;
+    
+}
+
+.contenido1 img{
+    margin: 15px 15px;
+    width: 90%;
+}
+
+.contenido1 a{
+    text-decoration: none;
+    color: white;
+    background-color: #0580B6;
+    padding: 10px 25px;
+}
+
+.cont_estadistico{
+    display: flex;
+    text-align: center;
+    background-color: #0580B6;
+    padding: 30px;
+}
+
+.cont_estadistico div{
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    
+}
+
+.cont_estadistico h2{
+    font-size: 40px;
+}
+
+.areas{
+    background-color: #CBE7DF ;
+}   
+
+
+.areas div a{
+    text-decoration: none;
+    color: white;
+    background-color: #028b65;
+    position: relative;
+    font-size: 26px;
+    padding: 5px 15px;
+    top: 140px;
+    left: -300px;
+
+}   
+
+.areas div img{
+    width: 350px;
+    margin: 55px 35px;
+}
+
+.alianzas {
+    background-color: #FCEBCC;
+}
+
+.alianzas h1 {
+    color: white;
+    font-weight: bolder;
+    background-color: #F7C46A;
+}
+
+.quienes_somos{
+    background-color: #ecd8d1;
+}
+
+.quienes_somos img{
+    width: 100%;
+}
+
+.primero, .segundo{
+    background-color:#DBB2A3 ;
+    color: white;
+    width: 40%; 
+    text-align: center;
+    padding: 10px 20px;
+    margin: 15px 5px;
+}
+
+
+
+.equipo{
+    background-color: #ECD8D1;
+    color: white;
+    font-weight: bolder;
+}
+.equipo p{
+    background-color: #994728;
+    color: white;
+    padding: 5px 15px;
+    width: 15%;
+    font-size: 26px;
+    text-align: center;
+    margin: 0px 15px;
+}
+
+.equipo h1{
+    background-color: #DBB2A3;
+    margin: 20px 0px;
+    padding: 10px 30px;
+    font-size:26px;
+    font-weight: bold;
+}
+
+.equipo div p{
+    font-size: 22px;
+    font-weight: 300    ;
+}
+
+.equipo img{
+    width: 30%;
+ 
+}
+
+.equipo section{
+    display: flex;
+}
+
+.equipo section div{
+   margin: 10px 20px;
+}
+
+.equipo section div p{
+    width: 150px;
+    margin:10px 0px;
+    padding: 5px 15px;
+}
+
+/*falta el @media*/
